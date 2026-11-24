@@ -1,0 +1,82 @@
+{
+ "world": {
+  "classes": 20,
+  "per_class": 400,
+  "train_classes": 15,
+  "test_classes": 5,
+  "scouts": 15,
+  "reports": 24072,
+  "base_rate": 0.210625
+ },
+ "auc": {
+  "one_scout": 0.728,
+  "average": 0.743,
+  "weighted": 0.746,
+  "full": 0.76,
+  "tools_only": 0.689
+ },
+ "gains": [
+  {
+   "comparison": "Average of scouts vs One scout",
+   "gain": 0.015,
+   "ci_lo": -0.001,
+   "ci_hi": 0.03,
+   "label": "NOT CONFIRMED"
+  },
+  {
+   "comparison": "Weighted scouts vs Average of scouts",
+   "gain": 0.003,
+   "ci_lo": -0.003,
+   "ci_hi": 0.01,
+   "label": "NOT CONFIRMED"
+  },
+  {
+   "comparison": "Weighted scouts + measurables vs Weighted scouts",
+   "gain": 0.014,
+   "ci_lo": 0.005,
+   "ci_hi": 0.022,
+   "label": "NOT CONFIRMED"
+  }
+ ],
+ "scout_learning": {
+  "spearman_noise_vs_weight": -0.96,
+  "p": 1.3027489790343458e-08,
+  "spearman_bias": 0.81,
+  "spearman_maturity": 0.93
+ },
+ "budget": [
+  {
+   "strategy": "Market (average FV)",
+   "signed_per_class": 30.0,
+   "spent_per_class": 6312000.0,
+   "expected_hits_per_class": 12.92,
+   "actual_hits_per_class": 12.8,
+   "gain_vs_market": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "label": ""
+  },
+  {
+   "strategy": "Weighted scouts",
+   "signed_per_class": 30.0,
+   "spent_per_class": 6267200.0,
+   "expected_hits_per_class": 13.649,
+   "actual_hits_per_class": 12.6,
+   "gain_vs_market": 0.056,
+   "ci_lo": 0.002,
+   "ci_hi": 0.096,
+   "label": "NOT CONFIRMED"
+  },
+  {
+   "strategy": "Board (weighted scouts + measurables)",
+   "signed_per_class": 30.0,
+   "spent_per_class": 6293600.0,
+   "expected_hits_per_class": 14.884,
+   "actual_hits_per_class": 14.8,
+   "gain_vs_market": 0.152,
+   "ci_lo": 0.107,
+   "ci_hi": 0.198,
+   "label": "CONFIRMED"
+  }
+ ]
+}

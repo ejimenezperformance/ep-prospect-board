@@ -1,0 +1,4 @@
+strategy,signed_per_class,spent_per_class,expected_hits_per_class,actual_hits_per_class,gain_vs_market,ci_lo,ci_hi,label
+Market (average FV),30.0,6312000.0,12.920345425298072,12.8,0.0,0.0,0.0,
+Weighted scouts,30.0,6267200.0,13.649046138948236,12.6,0.05639947614893992,0.0019170724430181973,0.09575450648815953,NOT CONFIRMED
+Board (weighted scouts + measurables),30.0,6293600.0,14.883935707047689,14.8,0.15197660876038976,0.10738362081547792,0.19824383158165948,CONFIRMED
