@@ -97,7 +97,7 @@ python src/charts.py results figures/es es
 
 ## How this connects to real data
 
-The [EP International Pipeline](https://github.com/ejimenezperformance/ep-international-pipeline) study uses public DSL data to show that first-season performance predicts reaching Double-A (AUC 0.57 → 0.74). This repo is the step before signing: how to read the reports. With club data, the two link up: signing evaluations scored against DSL results, by scout and by region.
+The EP International Pipeline study uses public DSL data to show that first-season performance predicts reaching Double-A (AUC 0.57 → 0.74). This repo is the step before signing: how to read the reports. With club data, the two link up: signing evaluations scored against DSL results, by scout and by region.
 
 ## Corrections log
 
